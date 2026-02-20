@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Florida Trail AR: Critter Catch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js@3.4.5/aframe/build/aframe-ar.min.js"></script>
+  </head>
+  <body>
+    <div class="hud">
+      <div class="panel">
+        <span class="label">Score</span>
+        <span id="scoreValue">0</span>
+      </div>
+      <div class="panel">
+        <span class="label">Time</span>
+        <span id="timeValue">45s</span>
+      </div>
+      <div class="panel">
+        <span class="label">Goal</span>
+        <span id="goalValue">120</span>
+      </div>
+    </div>
+
+    <div id="statusMessage" class="status">
+      Scan a Hiro marker, then press Start Game.
+    </div>
+
+    <button id="startButton" class="start-button" type="button">
+      Start Game
+    </button>
+
+    <a-scene
+      embedded
+      vr-mode-ui="enabled: false"
+      renderer="antialias: true; alpha: true; precision: mediump"
+      arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+    >
+      <a-marker id="hiroMarker" preset="hiro">
+        <a-entity id="arena">
+          <a-cylinder
+            position="0 0 0"
+            radius="0.8"
+            height="0.04"
+            color="#0f766e"
+            opacity="0.75"
+          ></a-cylinder>
+          <a-ring
+            position="0 0.03 0"
+            rotation="-90 0 0"
+            radius-inner="0.83"
+            radius-outer="0.92"
+            color="#34d399"
+            opacity="0.9"
+          ></a-ring>
+          <a-text
+            value="Tap glowing critters!"
+            align="center"
+            color="#f8fafc"
+            position="0 0.15 0"
+            rotation="-90 0 0"
+            width="2"
+          ></a-text>
+        </a-entity>
+        <a-entity id="gameRoot"></a-entity>
+      </a-marker>
+
+      <a-entity camera>
+        <a-entity
+          cursor="rayOrigin: mouse; fuse: false"
+          raycaster="objects: .target; far: 20; interval: 100"
+        ></a-entity>
+      </a-entity>
+    </a-scene>
+
+    <script src="game.js"></script>
+  </body>
+</html>

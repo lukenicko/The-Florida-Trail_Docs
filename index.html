@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AR Orb Hunter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <video id="camera" autoplay playsinline muted></video>
+      <canvas id="game-canvas" aria-label="AR game arena"></canvas>
+
+      <section class="hud" aria-live="polite">
+        <h1>AR Orb Hunter</h1>
+        <div class="stats">
+          <p>Score: <span id="score-value">0</span></p>
+          <p>Lives: <span id="lives-value">5</span></p>
+          <p>Time: <span id="time-value">60.0</span>s</p>
+          <p>Mode: <span id="mode-value">Ready</span></p>
+          <p>Combo: <span id="combo-value">0</span>x</p>
+        </div>
+      </section>
+
+      <div class="crosshair" aria-hidden="true"></div>
+    </main>
+
+    <section id="overlay" class="overlay">
+      <div class="panel">
+        <h2 id="overlay-title">Start the AR Game</h2>
+        <p id="overlay-text">
+          Move your phone to look around. Tap glowing orbs in your environment before
+          they disappear.
+        </p>
+        <ul>
+          <li>Hit orbs to score points.</li>
+          <li>Miss taps or expired orbs cost lives.</li>
+          <li>Survive for 60 seconds to win.</li>
+        </ul>
+        <button id="start-button" type="button">Start AR Round</button>
+        <p id="status-text"></p>
+      </div>
+    </section>
+
+    <script src="game.js"></script>
+  </body>
+</html>

